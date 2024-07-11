@@ -11,14 +11,16 @@
       .list {margin-left:50px}
        #time {font-size:1.5em;background-color:rgb(217, 217, 235);font-weight:bold;font-style:italic}
        p {margin-left:50px}
-       img {float:right;position:absolute;top:120px;left:900px;z-index:2}
+       #faultlist {float:right;position:absolute;top:120px;left:300px;z-index:2}
+       #CVM {float:right;position:absolute;top:120px;left:900px;z-index:2}
        div{z-index:1}
     </style>
     <body>
          <h1>数据处理结果</h1>
          <h2>数据图/统计表:</h2>
         <p>统计时间：0620-0710;循环工况已运行<span id='time'>70.29h</span></p>
-        <img src='bar_plot_with_chinese.png' width='500'> 
+        <img id='faultlist' src='bar_plot_with_chinese.png' width='500'> 
+        <img id='cvm' src='CVM.png' width='500'> 
     <nav>
         <ul>
             <li class='list'><a href="0710处理结果with_table.html">100kW处理结果</a></li>
